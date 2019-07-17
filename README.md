@@ -172,14 +172,14 @@ Ce code est sous licence <a href="http://www.gnu.org/licenses">GPL3</a>
 	>>> gp.showgenix(c)
 	
 	
-    	                    *************   ** ****  ** *****  ****    *  *      *      
+    	                *************   ** ****  ** *****  ****    *  *      *      
 	Bonobo.adn              TTCTTTCATGGGGAAGCAAATTTAAGTGCCACCCAAGTATTGGCTCATTCACTA-TAACC
 	Pan_AJ586556.adn        TTCTTTCATGGGGAAGCAAATTTAAGTACCACCTAAGTATTGGCCTATTCATTA-CAACC
 	Gorille.adn             TTCTTTCATGGGGAGACAAATTTGGGTGCCACCCAAGTATTAGCTAACCCACCAACAATT
 	Orangoutan.adn          TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTT-CCAGCGGCC
 	
     	                       
-    	                    ----:----|----:----|----:----|----:----|----:----|----:----|
+    	                ----:----|----:----|----:----|----:----|----:----|----:----|
         	                         10        20        30        40        50        60
 	
 	
