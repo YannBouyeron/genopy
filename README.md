@@ -922,13 +922,12 @@ On obtient le hash du fichier HTML, consultable sur votre noeud ipfs ou via ipfs
 
 La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregistrée localement:
 
-    >>> matrix2png(m, path="mamatrice.png")
+    >>> matrix2png(m, path="ma_matrice.png")
     <matplotlib.axes._subplots.AxesSubplot object at 0x704f0a50>
 
 
 <p align="center">
-  <img src="https://github.com/YannBouyeron/YannBouyeron.github.io/blob/master/Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
-">
+  <img src="Images/ma_matrice.png">
 </p>
 
 <a name="phylomatrix"></a>
