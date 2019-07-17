@@ -223,9 +223,9 @@ def canbeprot(seq):
 def testalpha(seq):
 	
 	"""
-	Teste l'alphabet d'une sequence
+	Teste l'alphabet d'une séquence
 	
-	argument: Seq ou SeqRecord  , la sequence à tester
+	argument: Seq ou SeqRecord  , la séquence à tester
 	
 	return:
 		generic_nucleotide si il y'a un doute entre adn ou arn
@@ -233,7 +233,7 @@ def testalpha(seq):
 		IUPAC.unambigous_rna
 		IUPAC.protein
 		IUPAC.extended_protein
-		ou None si la sequence n'est pas reconnue
+		ou None si la séquence n'est pas reconnue
 		
 	"""
 	
@@ -266,7 +266,7 @@ def testalpha(seq):
 
 def toSeq(seq):
 	
-	"""Teste si une seq est de type str Seq ou SeqRecord. Return Seq object"""
+	"""Teste si une séquence est de type str Seq ou SeqRecord. Return Seq object"""
 
 	if type(seq) == SeqRecord:
 		
@@ -294,12 +294,12 @@ def langage(seq):
 	
 	arguments:
 		
-		seq: la sequence à tester (str) ou (objet Seq) ou (objet SeqRecord)
+		seq: la séquence à tester (str) ou (objet Seq) ou (objet SeqRecord)
 	
 	return:
 		1 (int) si langage à une lettre
 		3 (int) si langage à trois lettres
-		ou None si la séquence n'est pas reconnue comme une sequence proteique
+		ou None si la séquence n'est pas reconnue comme une séquence proteique
 	"""
 	
 	seq = toSeq(seq)
@@ -651,7 +651,7 @@ def show(seq, start = 0, stop = None, width = None, peprep = 3):
             seq: Seq ou SeqRecord à représenter
             start et stop: limite de la représentation. Les arguments start et stop doivent être des entiers (int); 
             width: largeur de la représentation. width doit être un multiple de 10. 
-            peprep: 1 ou 3: représentation des acides aminés. Par défaut, la representation des seq peptidique (peprep) et de 3 lettres/aa
+            peprep: 1 ou 3: représentation des acides aminés. Par défaut, la représentation des seq peptidique (peprep) et de 3 lettres/aa
             
         """
 	
@@ -1751,7 +1751,7 @@ def clustal(*seq, out = 'comp.aln', std = False):
 def phylo(*seq, out = "comp.aln"):
 	
 	"""
-	Méthode simplifiée de création d'un arbre phylogenetique à partir d'une liste de SeqRecord
+	Méthode simplifiée de création d'un arbre phylogénétique à partir d'une liste de SeqRecord
 	
 		argument: *seq: liste de SeqRecord à aligner
 		return: (align, stdout, tree)
