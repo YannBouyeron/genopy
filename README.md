@@ -1,6 +1,5 @@
 # Genopy
 
-========================================================
 
 Analyses génétiques et phylogénétiques pour les SVT
 
@@ -9,15 +8,15 @@ Analyses génétiques et phylogénétiques pour les SVT
 
 ### Installation des dépendances.
 
-Genopy requiert python >= 3.4 et des dépendances python qui ne sont pas présentes dans la librairie standard (numpy, biopython, pandas, matplotlib, seaborn, ipfsapi) et des dépendances non python (Clustalw, Emboss, Rebase, Phylip).
+Genopy requiert python >= 3.4 et des dépendances python qui ne sont pas présentes dans la librairie standard (numpy, biopython, pandas, matplotlib, seaborn, ipfshttpclient) et des dépendances non python (Clustalw, Emboss, Rebase, Phylip).
 
 #### Installation des dépendances Python.
 
-	pip install numpy biopython pandas matplotlib seaborn ipfsapi
+	pip install numpy biopython pandas matplotlib seaborn ipfshttpclient
 
 Si vous avez plusieurs versions de python et que vous souhaitez installer Genopy pour la version de python 3.6 (par exemple):
 
-	Python3.6 -m pip install numpy biopython pandas matplotlib seaborn ipfsapi
+	Python3.6 -m pip install numpy biopython pandas matplotlib seaborn ipfshttpclient
 
 #### Installation de Clustalw
 
@@ -82,6 +81,11 @@ Sur Debian:
 #### Avec pip:
 
     pip install genopy
+    
+Ou, pour une version donnée de python (exemple 3.6):
+
+    python3.6 -m pip install genopy
+
 
 #### Depuis github:
 
@@ -106,12 +110,12 @@ Ce code est sous licence <a href="http://www.gnu.org/licenses">GPL3</a>
 	
 	
 	>>> list_seq
-	[SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAGATTTGGGTGCCACCCAAGTATTGACTCACCCATCA...CAT', SingleLetterAlphabet()), id='Refhumaine.adn', name='Refhumaine.adn', description=' Refhumaine.adn', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTTCCAG...GGA', SingleLetterAlphabet()), id='Orangoutan.adn', name='Orangoutan.adn', description='Orangoutan.adn  ORANG-OUTAN', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAAATTTAAGTGCCACCCAAGTATTGGCTCATTCACTA...ACG', SingleLetterAlphabet()), id='Bonobo.adn', name='Bonobo.adn', description='Bonobo.adn  BONOBO', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAGACAAATTTGGGTGCCACCCAAGTATTAGCTAACCCACCA...CCC', SingleLetterAlphabet()), id='Gorille.adn', name='Gorille.adn', description='Gorille.adn  GORILLE', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAAATTTAAGTACCACCTAAGTATTGGCCTATTCATTA...CAC', SingleLetterAlphabet()), id='Pan_AJ586556.adn', name='Pan_AJ586556.adn', description='Pan_AJ586556.adn  AJ586556-PAN', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAAATTTAAGTACCACCTAAGTACTGGCTCATTCATTA...CGG', SingleLetterAlphabet()), id='Pan_AJ586557.adn', name='Pan_AJ586557.adn', description='Pan_AJ586557.adn  AJ586557-PAN', dbxrefs=[]), SeqRecord(seq=Seq('TTCTATAGGGGGGAAAGAACTCAAAGAACAACCTAAGTACTAACTTAATCTCCC...AGT', SingleLetterAlphabet()), id='Colobe.adn', name='Colobe.adn', description='Colobe.adn  COLOBE', dbxrefs=[])]
+	[SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAGATTTGGGTGCCACCCAAGTATTGACTCACCCATCA...CAT', SingleLetterAlphabet()), id='Refhumaine.adn', name='Refhumaine.adn', description=' Refhumaine.adn', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTTCCAG...GGA', SingleLetterAlphabet()), id='Orangoutan.adn', name='Orangoutan.adn', description='Orangoutan.adn  ORANG-OUTAN', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAAATTTAAGTGCCACCCAAGTATTGGCTCATTCACTA...ACG', SingleLetterAlphabet()), id='Bonobo.adn', name='Bonobo.adn', description='Bonobo.adn  BONOBO', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAGACAAATTTGGGTGCCACCCAAGTATTAGCTAACCCACCA...CCC', SingleLetterAlphabet()), id='Gorille.adn', name='Gorille.adn', description='Gorille.adn  GORILLE', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAAATTTAAGTACCACCTAAGTATTGGCCTATTCATTA...CAC', SingleLetterAlphabet()), id='Pan_AJ586556.adn', name='Pan_AJ586556.adn', description='Pan_AJ586556.adn  AJ586556-PAN', dbxrefs=[]), SeqRecord(seq=Seq('TTCTTTCATGGGGAAGCAAATTTAAGTACCACCTAAGTACTGGCTCATTCATTA...CGG', SingleLetterAlphabet()), id='Pan_AJ586557.adn', name='Pan_AJ586557.adn', description='Pan_AJ586557.adn  AJ586557-PAN', dbxrefs=[]), SeqRecord(seq=Seq('TTCTATAGGGGGGAAAGAACTCAAAGAACAACCTAAGTACTAACTTAATCTCCC...AGT', SingleLetterAlphabet()), id='Colobe.adn', name='Colobe.adn', description='Colobe.adn  COLOBE', dbxrefs=[])]
 	>>> 
 	
 	
 	>>> list_seq[1]
-	SeqRecord(seq=Seq('TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTTCCAG...GGA', SingleLetterAlphabet()), id='Orangoutan.adn', name='Orangoutan.adn', description='Orangoutan.adn  ORANG-OUTAN', dbxrefs=[])
+	SeqRecord(seq=Seq('TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTTCCAG...GGA', SingleLetterAlphabet()), id='Orangoutan.adn', name='Orangoutan.adn', description='Orangoutan.adn  ORANG-OUTAN', dbxrefs=[])
 	>>> 
 	>>> for i in list_seq:
 	...     print(i.name)
