@@ -493,12 +493,12 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
 #### Rétro transcrire
 
     >>> rna
-    SeqRecord(seq=Seq('AUGGCCCAGCAGUGGAGCCUCCAAAGGCUCGCAGGCCGCCAUCCGCAGGACAGC...UGA', RNAAlphabet()), id='gene_opsine_rouge.rna', name='gene_opsine_rouge.rna', description='transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]', dbxrefs=[])
+    SeqRecord(seq=Seq('AUGGCCCAGCAGUGGAGCCUCCAAAGGCUCGCAGGCCGCCAUCCGCAGGACAGC...UGA', RNAAlphabet()), id='gene_opsine_rouge.rna', name='gene_opsine_rouge.rna', description='transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]', dbxrefs=[])
     
     
     >>> dna_c = retro_transcribe(rna)
     >>> dna_c
-    SeqRecord(seq=Seq('ATGGCCCAGCAGTGGAGCCTCCAAAGGCTCGCAGGCCGCCATCCGCAGGACAGC...TGA', DNAAlphabet()), id='gene_opsine_rouge.rna.dnac', name='gene_opsine_rouge.rna.dnac', description='retro transcription de [transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]]', dbxrefs=[])
+    SeqRecord(seq=Seq('ATGGCCCAGCAGTGGAGCCTCCAAAGGCTCGCAGGCCGCCATCCGCAGGACAGC...TGA', DNAAlphabet()), id='gene_opsine_rouge.rna.dnac', name='gene_opsine_rouge.rna.dnac', description='retro transcription de [transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]]', dbxrefs=[])
     
     >>> dna.seq == dna_c.seq
     True
@@ -619,7 +619,7 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
     {'K': 'AAG', 'N': 'AAT', 'T': 'ACT', 'R': 'CGT', 'S': 'TCT', 'I': 'ATT', 'M': 'ATG', 'Q': 'CAG', 'H': 'CAT', 'P': 'CCT', 'L': 'TTG', 'E': 'GAG', 'D': 'GAT', 'A': 'GCT', 'G': 'GGT', 'V': 'GTT', 'Y': 'TAT', 'C': 'TGT', 'W': 'TGG', 'F': 'TTT', None: 'TAA'}
 
     >>> cg.forward_table
-    {'TTT': 'F', 'TTC': 'F', 'TTA': 'L', 'TTG': 'L', 'TCT': 'S', 'TCC': 'S', 'TCA': 'S', 'TCG': 'S', 'TAT': 'Y', 'TAC': 'Y', 'TGT': 'C', 'TGC': 'C', 'TGG': 'W', 'CTT': 'L', 'CTC': 'L', 'CTA': 'L', 'CTG': 'L', 'CCT': 'P', 'CCC': 'P', 'CCA': 'P', 'CCG': 'P', 'CAT': 'H', 'CAC': 'H', 'CAA': 'Q', 'CAG': 'Q', 'CGT': 'R', 'CGC': 'R', 'CGA': 'R', 'CGG': 'R', 'ATT': 'I', 'ATC': 'I', 'ATA': 'I', 'ATG': 'M', 'ACT': 'T', 'ACC': 'T', 'ACA': 'T', 'ACG': 'T', 'AAT': 'N', 'AAC': 'N', 'AAA': 'K', 'AAG': 'K', 'AGT': 'S', 'AGC': 'S', 'AGA': 'R', 'AGG': 'R', 'GTT': 'V', 'GTC': 'V', 'GTA': 'V', 'GTG': 'V', 'GCT': 'A', 'GCC': 'A', 'GCA': 'A', 'GCG': 'A', 'GAT': 'D', 'GAC': 'D', 'GAA': 'E', 'GAG': 'E', 'GGT': 'G', 'GGC': 'G', 'GGA': 'G', 'GGG': 'G'}
+    {'TTT': 'F', 'TTC': 'F', 'TTA': 'L', 'TTG': 'L', 'TCT': 'S', 'TCC': 'S', 'TCA': 'S', 'TCG': 'S', 'TAT': 'Y', 'TAC': 'Y', 'TGT': 'C', 'TGC': 'C', 'TGG': 'W', 'CTT': 'L', 'CTC': 'L', 'CTA': 'L', 'CTG': 'L', 'CCT': 'P', 'CCC': 'P', 'CCA': 'P', 'CCG': 'P', 'CAT': 'H', 'CAC': 'H', 'CAA': 'Q', 'CAG': 'Q', 'CGT': 'R', 'CGC': 'R', 'CGA': 'R', 'CGG': 'R', 'ATT': 'I', 'ATC': 'I', 'ATA': 'I', 'ATG': 'M', 'ACT': 'T', 'ACC': 'T', 'ACA': 'T', 'ACG': 'T', 'AAT': 'N', 'AAC': 'N', 'AAA': 'K', 'AAG': 'K', 'AGT': 'S', 'AGC': 'S', 'AGA': 'R', 'AGG': 'R', 'GTT': 'V', 'GTC': 'V', 'GTA': 'V', 'GTG': 'V', 'GCT': 'A', 'GCC': 'A', 'GCA': 'A', 'GCG': 'A', 'GAT': 'D', 'GAC': 'D', 'GAA': 'E', 'GAG': 'E', 'GGT': 'G', 'GGC': 'G', 'GGA': 'G', 'GGG': 'G'}
 
     >>> cg.forward_table["AAC"]
     'N' 
@@ -927,7 +927,7 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
 
 
 <p align="center">
-  <img src="https://github.com/YannBouyeron/YannBouyeron.github.io/Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
+  <img src="https://github.com/YannBouyeron/YannBouyeron.github.io/blob/master/Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
 ">
 </p>
 
