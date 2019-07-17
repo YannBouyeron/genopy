@@ -172,68 +172,70 @@ Ce code est sous licence <a href="http://www.gnu.org/licenses">GPL3</a>
 	>>> gp.showgenix(c)
 	
 	
-    	                        *************   ** ****  ** *****  ****    *  *      *      
+    	                    *************   ** ****  ** *****  ****    *  *      *      
 	Bonobo.adn              TTCTTTCATGGGGAAGCAAATTTAAGTGCCACCCAAGTATTGGCTCATTCACTA-TAACC
 	Pan_AJ586556.adn        TTCTTTCATGGGGAAGCAAATTTAAGTACCACCTAAGTATTGGCCTATTCATTA-CAACC
 	Gorille.adn             TTCTTTCATGGGGAGACAAATTTGGGTGCCACCCAAGTATTAGCTAACCCACCAACAATT
 	Orangoutan.adn          TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTT-CCAGCGGCC
 	
-    	                        ----:----|----:----|----:----|----:----|----:----|----:----|
+    	                       
+    	                    ----:----|----:----|----:----|----:----|----:----|----:----|
         	                         10        20        30        40        50        60
 	
 	
 	
-    	                           ****** **** **** **** ***** ********      *  ** * *  * * 
+    	                       ****** **** **** **** ***** ********      *  ** * *  * * 
 	Bonobo.adn              GCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAATCACT
 	Pan_AJ586556.adn        GCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACT
 	Gorille.adn             GTCATGTATATCGTGCATTACTGCTAGCCACCATGAATAATATACAGTACTATACACACC
 	Orangoutan.adn          --TATGTATTTCGTACATTCCTGCCAGCCAACATGAATATCACCCAACACAACAATCGCT
 	
         	                ----:----|----:----|----:----|----:----|----:----|----:----|
-    	                                 70        80        90        100       110       120
+    	                             70        80        90        100       110       120
 	
 	
 	
-    	                         **  **** *** ****  **  *     *****     *       ***   ******
+    	                     **  **** *** ****  **  *     *****     *       ***   ******
 	Bonobo.adn              TAACCACCTATAACACATAAAAACCTACATCCACAT-TAAAACTTT-ACCCCATGCTTAC
 	Pan_AJ586556.adn        CAACTACCTATAATACATTAAACCCACCCCCCACAT-TACAACCTCCACCCTATGCTTAC
 	Gorille.adn             CAAACACCTGTAATACATACAAAACCCCCTCCACATCTACAGACCC--CCCCATGCTTAC
 	Orangoutan.adn          TAACCACCTATAACACATACAAAGCCCAATCCACAC--CCAACCTCCACCCCCCGCTTAC
 	
         	                ----:----|----:----|----:----|----:----|----:----|----:----|
-            	                         130       140       150       160       170       180
+            	                     130       140       150       160       170       180
 	
 	
 	
-                                ***** * **          ** *  **    * **** * *   *    **      **
-        Bonobo.adn              AAGCACGAACAATAATC-AACCTCCAACTGTCAAACATAACACACAAC-TCCAAAGACAC
+                            ***** * **          ** *  **    * **** * *   *    **      **
+    Bonobo.adn              AAGCACGAACAATAATC-AACCTCCAACTGTCAAACATAACACACAAC-TCCAAAGACAC
 	Pan_AJ586556.adn        AAGCACGCACAACAGTC-AACCCCCAACTGTCACACATAAAATGCAAC-TCCAAAGACAC
 	Gorille.adn             AAGCAAGAACAGTCTTCCAACCCCTAACTAGCACACATTAAATCCAACCTCCCCACTCAC
 	Orangoutan.adn          AAGCAAGTACCCCCCCATGCCCCCCCACCCAAACACAT-ACATCGATTCCCCCACATAAC
 	
-    	                        ----:----|----:----|----:----|----:----|----:----|----:----|
-    	                                 190       200       210       220       230       240
+    	                    ----:----|----:----|----:----|----:----|----:----|----:----|
+    	                             190       200       210       220       230       240
 	
 	
 	
-    	                          ** * ***      *** **** ****        *    * ** ****** ***** 
+    	                      ** * ***      *** **** ****        *    * ** ****** ***** 
 	Bonobo.adn              TCCTCC-CCCACCCCGATATCAACAAACCTGACAATCCT-TGATAGTACATAGTACATAC
 	Pan_AJ586556.adn        CCCTCC-CCCACCCCGATACCAACAAACCTATACCCCCT-TAACAGTACATAGTACATAC
 	Gorille.adn             TGCTCCACCCAATGGAATACCAACCAACCTACCTCTTCCACAAAAGCACATAGTACATAA
 	Orangoutan.adn          CCCTTC-CCCCCCCGCATACCAACCAACCCAATCAAGCT-TTAAAGTACATAGCACATAA
 	
-    	                        ----:----|----:----|----:----|----:----|----:----|----:----|
+    	                        
+    	                    ----:----|----:----|----:----|----:----|----:----|----:----|
         	                         250       260       270       280       290       300
 	
 	
 	
-    	                           *    * ** ************ *    ** **  * **   ***      
+    	                       *    * ** ************ *    ** **  * **   ***      
 	Bonobo.adn              AGTCATACACCGTACATAGCACATTACAGTCAAATCCATTCTTGCCCCCACG--
 	Pan_AJ586556.adn        AATCGTACATCGCACATAGCACATTACAGTCAAATCCATCCTTGTCCCCAC---
 	Gorille.adn             GATCATTCACCGTACATAGCACATTACAGTTAAATC-ATCCTCGTCCC------
 	Orangoutan.adn          CACC-CCTACCGTACATAGCACATTTCTACTAACTCCCTGCTTAACCCTACGGA
 	
-    	                        ----:----|----:----|----:----|----:----|----:----|----
+    	                    ----:----|----:----|----:----|----:----|----:----|----
         	                         310       320       330       340       350       
 	
 	
@@ -248,7 +250,7 @@ Ce code est sous licence <a href="http://www.gnu.org/licenses">GPL3</a>
 	Pan_AJ586556.adn 0.13276836158192096    0
 	Gorille.adn      0.25988700564971756    0.2542372881355932    0
 	Orangoutan.adn   0.3220338983050848     0.3220338983050848    0.36723163841807904     0
-       	                 Bonobo.adn             Pan_AJ586556.adn      Gorille.adn             Orangoutan.adn
+       	             Bonobo.adn             Pan_AJ586556.adn      Gorille.adn             Orangoutan.adn
 	
 	
 	>>> tree = gp.tree_nj(m)
@@ -312,6 +314,29 @@ Créer un fasta multisequence contenant plusieurs SeqRecord. Le fichier fasta se
 
     >>> mkfasx("myfasta.fas", sr1, sr2)
 
+##### Créer un SeqRecord et un fasta avec la fonction creat()
+
+    >>> help(creat)
+    Help on function creat in module genopy:
+    
+    creat(seq_name, seq, des='', out=False)
+        Création d'un SeqRecord et d'un fasta mono séquence
+    
+    arguments:
+            seq_name: (str) nom de la séquence créée
+            seq: (str) ou (Seq) ou (SeqRecord) la séquence
+            des: (str) déscription du SeqRecord
+            out (bool): si False (défaut) , le fasta n'est pas créé
+            
+    retrun: 
+            le SeqRecord créé
+
+
+
+    >>> s = creat("un_adn", "ATCTCGTAGCTAGT", des="human adn", out=True)
+    >>> s
+    SeqRecord(seq=Seq('ATCTCGTAGCTAGT', IUPACUnambiguousDNA()), id='un_adn', name='un_adn', description='human adn', dbxrefs=[])
+
 
 
 <a name="convedi"></a>
@@ -353,6 +378,8 @@ Les séquences doivent être hébergées localement.
 
 On commence par rechercher les séquences avec la fonction 'search()' :
 
+    >>> from genopy import *
+    >>>
     >>> q = search("Opsine")
     >>> 
     >>> q
@@ -373,28 +400,28 @@ On obtient une liste de SeqRecord correspondant à notre recherche.
 On peut alors afficher la séquence du gène de l'opsine verte dont l'indice dans la liste est 1 avec la fonction 'show()':
 
     >>> show(q[1])
-
-
+    
+    
           ATGGCCCAGCAGTGGAGCCTCCAAAGGCTCGCAGGCCGCCATCCGCAGGACAGCTATGAG
           ----:----|----:----|----:----|----:----|----:----|----:----|
                    10        20        30        40        50        60
-
+    
           GACAGCACCCAGTCCAGCATCTTCACCTACACCAACAGCAACTCCACCAGAGGCCCCTTC
           ----:----|----:----|----:----|----:----|----:----|----:----|
                    70        80        90        100       110       120
-
+    
           GAAGGCCCGAATTACCACATCGCTCCCAGATGGGTGTACCACCTCACCAGTGTCTGGATG
           ----:----|----:----|----:----|----:----|----:----|----:----|
                    130       140       150       160       170       180
-
+    
           ATCTTTGTGGTCATTGCATCCGTTTTCACAAATGGGCTTGTGCTGGCGGCCACCATGAAG
           ----:----|----:----|----:----|----:----|----:----|----:----|
                    190       200       210       220       230       240
-
+    
           TTCAAGAAGCTGCGCCACCCGCTGAACTGGATCCTGGTGAACCTGGCGGTCGCTGACCTG
           ----:----|----:----|----:----|----:----|----:----|----:----|
                    250       260       270       280       290       300
-
+    
           GCAGAGACCGTCATCGCCAGCACTATCAGCGTTGTGAACCAGGTCTATGGCTACTTCGTG
           ----:----|----:----|----:----|----:----|----:----|----:----|
                    310       320       330       340       350       360
@@ -409,6 +436,9 @@ On peut alors afficher la séquence du gène de l'opsine verte dont l'indice dan
 
 <a name="transc"></a>
 
+    >>> from genopy import *
+    >>>
+    >>> q = search("Opsine")
     >>> dna = q[0]
     >>> 
     >>> dna
@@ -427,9 +457,19 @@ On peut alors afficher la séquence du gène de l'opsine verte dont l'indice dan
 
     >>> help(translate)
     Help on function translate in module genopy:
-
+    
     translate(*seq, table_id=1, to_stop=True, stop_symbol=' ', cds=True, out=False)
-    Traduction d'un ou plusieurs dna ou rna SeqRecord. Si out == True, chaque proteine est sauvegardée dans un fasta. Return proteine SeqRecord ou une liste de proteines SeqRecord
+    Traduction d'un ou plusieurs dna ou rna SeqRecord. 
+    
+    arguments:
+        *seq: liste de dna ou rna Seq ou SeqRecord
+        table_id: indice de la table du code génétique à utiliser (par defaut: 1 c'est le code standard)
+        to_stop: bool  True par défaut: la traduction s'arrete au codon stop
+        stop_symbol: représentation de l'arret de la traduction
+        cds: coding sequence: bool  True par défaut: la traduction commence au condon initiateur et se termine au codon stop
+        out: bool False par défaut. Si out == True, chaque sequence peptidique est sauvegardée dans un fasta. 
+        
+    return: proteine SeqRecord ou une liste de proteines SeqRecord
  
 > ORF: open reading frame ou phase ouverte de lecture, c'est la séquence du brin non transcrit (brin codant) de l'adn (ou de l'arn pré-messager) située entre le premier codon initiateur jusqu'au premier codon stop 
 > 
@@ -448,24 +488,24 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
     SeqRecord(seq=Seq('MAQQWSLQRLAGRHPQDSYEDSTQSSIFTYTNSNSTRGPFEGPNYHIAPRWVYH...SPA', ExtendedIUPACProtein()), id='gene_opsine_rouge.rna.prot', name='gene_opsine_rouge.rna.prot', description='traduction de [transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]]', dbxrefs=[])
 
     >>> show(pep)
-
-
+    
+    
           MetAlaGlnGlnTrpSerLeuGlnArgLeuAlaGlyArgHisProGlnAspSerTyrGluAspSerThrGlnSerSerIlePheThrTyr
            -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  | 
                                       10                            20                            30
-
+    
           ThrAsnSerAsnSerThrArgGlyProPheGluGlyProAsnTyrHisIleAlaProArgTrpValTyrHisLeuThrSerValTrpMet
            -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  | 
                                       40                            50                            60
-
+    
           IlePheValValThrAlaSerValPheThrAsnGlyLeuValLeuAlaAlaThrMetLysPheLysLysLeuArgHisProLeuAsnTrp
            -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  | 
                                       70                            80                            90
-
+    
           IleLeuValAsnLeuAlaValAlaAspLeuAlaGluThrValIleAlaSerThrIleSerIleValAsnGlnValSerGlyTyrPheVal
            -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  | 
                                       100                           110                           120
-
+    
           LeuGlyHisProMetCysValLeuGluGlyTyrThrValSerLeuCysGlyIleThrGlyLeuTrpSerLeuAlaIleIleSerTrpGlu
            -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  |  -  -  -  -  :  -  -  -  -  | 
                                       130                           140                           150
@@ -477,17 +517,11 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
     >>> rna
     SeqRecord(seq=Seq('AUGGCCCAGCAGUGGAGCCUCCAAAGGCUCGCAGGCCGCCAUCCGCAGGACAGC...UGA', RNAAlphabet()), id='gene_opsine_rouge.rna', name='gene_opsine_rouge.rna', description='transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]', dbxrefs=[])
     
-    >>> help(retro_transcribe)
-    Help on function retro_transcribe in module genopy:
-
-    retro_transcribe(*seq, out=False)
-    Retro transcription d'un ou plusieurs rna SeqRecord. Si out == True, chaque dna est sauvegardé dans un fasta. Return dna SeqRecord ou une liste de dna SeqRecord
-
-
+    
     >>> dna_c = retro_transcribe(rna)
     >>> dna_c
     SeqRecord(seq=Seq('ATGGCCCAGCAGTGGAGCCTCCAAAGGCTCGCAGGCCGCCATCCGCAGGACAGC...TGA', DNAAlphabet()), id='gene_opsine_rouge.rna.dnac', name='gene_opsine_rouge.rna.dnac', description='retro transcription de [transcription de [gene_opsine_rouge red opsin Homo sapiens opsin 1 (cone pigments), mRNA]]', dbxrefs=[])
-    >>> 
+    
     >>> dna.seq == dna_c.seq
     True
 
@@ -495,17 +529,11 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
 
 ### Afficher les tables du code génétique
 
-
-    >>> help(codegen)
-    Help on function codegen in module genopy:
-
-    codegen(table_id=None, bydna=False)
-        Affiche et retourne la table du code génétique correspondant à l'id entré en argument
-
-
+    >>> from genopy import *
+    >>>
     >>> codegen()
-
-
+    
+    
     1 : Standard
     2 : Vertebrate Mitochondrial
     3 : Yeast Mitochondrial
@@ -536,12 +564,12 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
 
 
     Entrez le numéro de la table à afficher: 1
-
-
+    
+    
     RNA table: 
-
+    
     Table 1 Standard, SGC0
-
+    
       |  U      |  C      |  A      |  G      |
     --+---------+---------+---------+---------+--
     U | UUU F   | UCU S   | UAU Y   | UGU C   | U
@@ -564,20 +592,20 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
     G | GUA V   | GCA A   | GAA E   | GGA G   | A
     G | GUG V   | GCG A   | GAG E   | GGG G   | G
     --+---------+---------+---------+---------+--
-
-
+    
+    
     <Bio.Data.CodonTable.NCBICodonTableRNA object at 0x74a047d0>
-
+    
     
     
     
     >>> cg = codegen(1, bydna=True)
-
-
+    
+    
     DNA table: 
-
+    
     Table 1 Standard, SGC0
-
+    
       |  T      |  C      |  A      |  G      |
     --+---------+---------+---------+---------+--
     T | TTT F   | TCT S   | TAT Y   | TGT C   | T
@@ -627,6 +655,8 @@ L'argument cds = True implique que la traduction commencera au premier codon ini
 
 On commence par rechercher des séquences:
 
+    >>> from genopy import *
+    >>>
     >>> q = search("primates")
     >>> 
     >>> len(q)
@@ -641,9 +671,9 @@ Il est possible de faire un alignement global (needle) ou local (water)
 
     >>> help(needle)
     Help on function needle in module genopy:
-
+    
     needle(*seq, gapopen=10, gapextend=0.5, out='emb.aln')
-         Alignement global par la methode de Needleman
+        Alignement global par la méthode de Needleman
     
     arguments:
             
@@ -745,17 +775,11 @@ L'affichage via showanag utilise le même mode de symbolisation que le logiciel 
 Il est aussi possible de lire l'alignement enregistré dans le fichier emb.aln avec la fonction reademboss() 
 
 
-    >>> help(reademboss)
-    Help on function reademboss in module genopy:
-
-    reademboss(path='emb.aln')
-        Cette fonction affiche le contenu de l'alignement emboss contenu dans le fichier à l'adresse "path", et return un objet align
-
-
+   
     >>> n = needle(q[0], q[1])
-
-    >>> reademboss("emb.aln") 
-
+    
+    >>> reademboss("emb.aln")    # ou reademboss()
+    
     ########################################
     # Program: needle
     # Rundate: Sun 14 Jul 2019 11:13:59
@@ -818,6 +842,8 @@ Il est possible d'afficher le % de similitudes ou de différences en utilisant l
 
 On commence par importer des séquences:
 
+    >>> from genopy import *
+    >>>
     >>> q = search("tyr")
     >>> 
     >>> len(q)
@@ -826,28 +852,13 @@ On commence par importer des séquences:
     >>> q[0]
     SeqRecord(seq=Seq('ATGCTCCTGGCTGTTTTGTACTGCCTGCTGTGGAGTTTCCAGACCTCCGCTGGC...TAA', SingleLetterAlphabet()), id='Tyrcod2', name='Tyrcod2', description="Tyrcod2  Partie strictement codante d'un allele du gene de la tyrosinase (ref erence 2).", dbxrefs=[])
 
-Puis on utilise la fonction clustal:
+Puis on utilise la fonction clustal: exemple ici pour comparer les séquence d’index 5, 6, 7, 8
 
-    >>> help(clustal)
-    Help on function clustal in module genopy:
-
-    clustal(*seq, out='comp.aln', std=False)
-        Alginement multiple ClustalW
-    
-    arguments:
-            
-            seq: liste des SeqRecord à aligner
-            out: path du fichier contenant l'alignement créé
-            std: bool, si True, return align et stdout , defaut = False
-            
-    Return: l'objet align
-
-
-
-    >>> c = clustal(*q[5:9])
+    >>> c = clustal(*q[5:9])  # ou clustal(q[5], q[6], q[7], q[8])
     >>> c
     <<class 'Bio.Align.MultipleSeqAlignment'> instance (4 records of length 1590, SingleLetterAlphabet()) at 704f06f0>
     
+
 Affichage simple: 
 
     >>> print(c)
@@ -858,13 +869,12 @@ Affichage simple:
     ATGCTCCTGGCTGTTTTGTACTGCCTGCTGTGGAGTTTCCAGAC...TAA F4_I1all1
     >>> 
 
-Méthodes applicables à l'ojet align:
+Méthodes applicables à l'objet align:
 
     >>> c.
     c.add_sequence(          c.append(                c.extend(                c.get_alignment_length(  
     c.annotations            c.column_annotations     c.format(                c.sort(                  
-    
-    
+
 Affichage au format clustal:
 
     >>> print(c.format("clustal"))
@@ -929,25 +939,10 @@ La matrice peut être convertie en table HTML et déployée sur [IPFS](https://g
     'QmcMhGpqsiCoyoPmbUf4xuX7ayMNiVHEkU44t4XMyWm2AK'
 
 On obtient le hash du fichier HTML, consultable sur votre noeud ipfs ou via ipfs.io: https://ipfs.io/ipfs/<hash>:
-	
-	https://ipfs.io/ipfs/QmcMhGpqsiCoyoPmbUf4xuX7ayMNiVHEkU44t4XMyWm2AK
+
+[https://ipfs.io/ipfs/QmcMhGpqsiCoyoPmbUf4xuX7ayMNiVHEkU44t4XMyWm2AK](https://ipfs.io/ipfs/QmcMhGpqsiCoyoPmbUf4xuX7ayMNiVHEkU44t4XMyWm2AK)
 
 La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregistrée localement:
-
-    >>> help(matrix2png)
-    Help on function matrix2png in module genopy:
-
-    matrix2png(matrix, path='', scale=0.6, cmap='YlGnBu')
-        Transforme une matrice de distance en image png
-    
-    arguments:
-            matrix: pd.DataFrame ou distance matrice retournee par la fonction matrix
-            path (otpionnel): path en .png de l'image
-            scale (optionnel) [defaut=0.6] : taille du texte (légendes, titres, cellules)
-            cmap (optionnel) [defaut="YlGnBu"] : palette de couleurs
-            
-    return: objet heatmap
-
 
     >>> matrix2png(m, path="mamatrice.png")
     <matplotlib.axes._subplots.AxesSubplot object at 0x704f0a50>
@@ -962,6 +957,8 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
 
 ### Construire un arbre phylogénétique à partir d'une matrice de distances
 
+    >>> from genopy import *
+    >>>
     >>> q = search("tyr")
     >>> c = clustal(*q[5:10])
     >>> m = matrix(c)
@@ -1072,6 +1069,8 @@ Pour afficher les distances sur les branches de l'arbre:
 
 ### Construire un arbre phylogénétique à partir d'une liste de séquences
 
+    >>> from genopy import *
+    >>>
     >>> q = search("tyr")
     >>> 
     >>> len(q)
@@ -1082,7 +1081,7 @@ Pour afficher les distances sur les branches de l'arbre:
     Help on function phylo in module genopy:
 
     phylo(*seq, out='comp.aln')
-        Méthode simplifiée de création d'un arbre phylogenetique à partir d'une liste de SeqRecord
+        Méthode simplifiée de création d'un arbre phylogénétique à partir d'une liste de SeqRecord
     
             argument: *seq: liste de SeqRecord à aligner
             return: (align, stdout, tree)
@@ -1107,6 +1106,4 @@ Pour afficher les distances sur les branches de l'arbre:
      | Tyralb_TS
      |
      | F4_I1all2
-
-
 
