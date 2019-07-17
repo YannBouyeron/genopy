@@ -178,21 +178,11 @@ Ce code est sous licence <a href="http://www.gnu.org/licenses">GPL3</a>
 	Gorille.adn             TTCTTTCATGGGGAGACAAATTTGGGTGCCACCCAAGTATTAGCTAACCCACCAACAATT
 	Orangoutan.adn          TTCTTTCATGGGGGATCAGATTTGGGTACCACCCCAGTACCGACCCATTT-CCAGCGGCC
 	
-    	                       
     	                ----:----|----:----|----:----|----:----|----:----|----:----|
         	                         10        20        30        40        50        60
 	
 	
 	
-    	                   ****** **** **** **** ***** ********      *  ** * *  * * 
-	Bonobo.adn              GCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTATATAGTACTATAATCACT
-	Pan_AJ586556.adn        GCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACAGTACTATAATCACT
-	Gorille.adn             GTCATGTATATCGTGCATTACTGCTAGCCACCATGAATAATATACAGTACTATACACACC
-	Orangoutan.adn          --TATGTATTTCGTACATTCCTGCCAGCCAACATGAATATCACCCAACACAACAATCGCT
-	
-        	            ----:----|----:----|----:----|----:----|----:----|----:----|
-    	                             70        80        90        100       110       120
-
 	...
 	...
 	
