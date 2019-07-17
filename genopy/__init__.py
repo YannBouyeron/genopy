@@ -60,7 +60,7 @@ import os
 
 __all__ = ['toSeq', 'matrix', 'matrix2ipfs', 'matrix2png', 'transcribe', 'translate', 'retro_transcribe', 'codegen', 'show', 'reademboss', 'needle', 'water', 'tree_nj', 'tree_upgma', 'parsimony_tree', 'showanag', 'showgenix', 'edi2fasta', 'search', 'creat', 'mkfas', 'mkfasx', 'clustal', 'phylo', 'draw_tree'] 
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 __author__ = "Yann Bouyeron"
 
