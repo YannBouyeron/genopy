@@ -3,6 +3,8 @@
 
 Analyses génétiques et phylogénétiques pour les SVT
 
+<a name ="installgenoy"></a>
+
 ## Installation
 
 
@@ -919,7 +921,7 @@ La fonction matrix attend un alignement (needle, water ou clustal) en argument o
     F4_I2all2       0.0006289308176100628   0
     F4_I1all2       0.0012578616352201255   0.0006289308176100628   0
     F4_I1all1       0.0012578616352201255   0.0006289308176100628   0.0012578616352201255   0
-                    F4_I2all1               F4_I2all2               F4_I1all2              F4_I1all1
+                    F4_I2all1               F4_I2all2               F4_I1all2               F4_I1all1
 
 La matrice peut être convertie en table HTML et déployée sur [IPFS](https://gist.github.com/YannBouyeron/53e6d67782dcff5995754b0a7333fa0b) avec la fonction matrix2ipfs:
 
@@ -973,6 +975,18 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
                     F4_I2all2               F4_II1all1              F4_I2all1               F4_I1all2               F4_I1all1
 
 
+Neighbor-joining:
+
+    >>> help(tree_nj)
+    
+    Help on function tree_nj in module genopy:
+
+    tree_nj(dm)
+        Création d'un arbre nj à partir de la matrice de distance retournée par la fonction matrix
+        return: tree
+
+    
+    
     >>> nj = tree_nj(m)
 
 
@@ -991,6 +1005,17 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
     Tree(rooted=True)
 
 
+UPGMA:
+
+    >>> help(tree_upgma)
+    
+    Help on function tree_upgma in module genopy:
+
+    tree_upgma(dm)
+        Création d'un arbre upgma à partir de la matrice de distance retournée par la fonction matrix
+        return: tree
+
+
     >>> up = tree_upgma(m)
 
 
@@ -1004,6 +1029,21 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
                                  |_____________________________________|
                                                                        | F4_I2all2
 
+
+Parcimonie:
+
+    >>> help(parsimony_tree)
+    
+    Help on function parsimony_tree in module genopy:
+
+    parsimony_tree(align, starting_tree)
+        Création d'un arbre basé sur la méthode de parcimonie à partir de l'alignement et d'un arbre de départ (nj)
+    
+    arguments:
+            align: objet align retourné par clustal()
+            satrting_tree: objet tree retourné par tree_nj()
+    
+    return: tree
 
 
     >>> pa = parsimony_tree(c, nj)
@@ -1031,3 +1071,42 @@ Pour afficher les distances sur les branches de l'arbre:
 <a name="phyloseq"></a>
 
 ### Construire un arbre phylogénétique à partir d'une liste de séquences
+
+    >>> q = search("tyr")
+    >>> 
+    >>> len(q)
+    25
+    >>> 
+    >>> help(phylo)
+    
+    Help on function phylo in module genopy:
+
+    phylo(*seq, out='comp.aln')
+        Méthode simplifiée de création d'un arbre phylogenetique à partir d'une liste de SeqRecord
+    
+            argument: *seq: liste de SeqRecord à aligner
+            return: (align, stdout, tree)
+
+
+    >>> p = phylo(*q[3:7])
+
+
+               Tyralb_TS  F4_I1all2  Tyralb_A5  F4_I1all1
+    Tyralb_TS   0.000000   0.000000   0.001887   0.001258
+    F4_I1all2   0.000000   0.000000   0.001887   0.001258
+    Tyralb_A5   0.001887   0.001887   0.000000   0.000629
+    F4_I1all1   0.001258   0.001258   0.000629   0.000000
+
+
+
+
+                                                   ______________________ Tyralb_A5
+      ____________________________________________|
+     |                                            | F4_I1all1
+    _|
+     | Tyralb_TS
+     |
+     | F4_I1all2
+
+
+
