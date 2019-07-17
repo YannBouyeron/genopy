@@ -192,54 +192,9 @@ Ce code est sous licence <a href="http://www.gnu.org/licenses">GPL3</a>
 	
         	            ----:----|----:----|----:----|----:----|----:----|----:----|
     	                             70        80        90        100       110       120
-	
-	
-	
-    	                 **  **** *** ****  **  *     *****     *       ***   ******
-	Bonobo.adn              TAACCACCTATAACACATAAAAACCTACATCCACAT-TAAAACTTT-ACCCCATGCTTAC
-	Pan_AJ586556.adn        CAACTACCTATAATACATTAAACCCACCCCCCACAT-TACAACCTCCACCCTATGCTTAC
-	Gorille.adn             CAAACACCTGTAATACATACAAAACCCCCTCCACATCTACAGACCC--CCCCATGCTTAC
-	Orangoutan.adn          TAACCACCTATAACACATACAAAGCCCAATCCACAC--CCAACCTCCACCCCCCGCTTAC
-	
-        	            ----:----|----:----|----:----|----:----|----:----|----:----|
-            	                     130       140       150       160       170       180
-	
-	
-	
-                        ***** * **          ** *  **    * **** * *   *    **      **
-    Bonobo.adn              AAGCACGAACAATAATC-AACCTCCAACTGTCAAACATAACACACAAC-TCCAAAGACAC
-	Pan_AJ586556.adn        AAGCACGCACAACAGTC-AACCCCCAACTGTCACACATAAAATGCAAC-TCCAAAGACAC
-	Gorille.adn             AAGCAAGAACAGTCTTCCAACCCCTAACTAGCACACATTAAATCCAACCTCCCCACTCAC
-	Orangoutan.adn          AAGCAAGTACCCCCCCATGCCCCCCCACCCAAACACAT-ACATCGATTCCCCCACATAAC
-	
-    	                ----:----|----:----|----:----|----:----|----:----|----:----|
-    	                             190       200       210       220       230       240
-	
-	
-	
-    	                  ** * ***      *** **** ****        *    * ** ****** ***** 
-	Bonobo.adn              TCCTCC-CCCACCCCGATATCAACAAACCTGACAATCCT-TGATAGTACATAGTACATAC
-	Pan_AJ586556.adn        CCCTCC-CCCACCCCGATACCAACAAACCTATACCCCCT-TAACAGTACATAGTACATAC
-	Gorille.adn             TGCTCCACCCAATGGAATACCAACCAACCTACCTCTTCCACAAAAGCACATAGTACATAA
-	Orangoutan.adn          CCCTTC-CCCCCCCGCATACCAACCAACCCAATCAAGCT-TTAAAGTACATAGCACATAA
-	
-    	                        
-    	                ----:----|----:----|----:----|----:----|----:----|----:----|
-        	                         250       260       270       280       290       300
-	
-	
-	
-    	                   *    * ** ************ *    ** **  * **   ***      
-	Bonobo.adn              AGTCATACACCGTACATAGCACATTACAGTCAAATCCATTCTTGCCCCCACG--
-	Pan_AJ586556.adn        AATCGTACATCGCACATAGCACATTACAGTCAAATCCATCCTTGTCCCCAC---
-	Gorille.adn             GATCATTCACCGTACATAGCACATTACAGTTAAATC-ATCCTCGTCCC------
-	Orangoutan.adn          CACC-CCTACCGTACATAGCACATTTCTACTAACTCCCTGCTTAACCCTACGGA
-	
-    	                ----:----|----:----|----:----|----:----|----:----|----
-        	                         310       320       330       340       350       
-	
-	
-	
+
+	...
+	...
 	
 	
 	
