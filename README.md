@@ -39,7 +39,7 @@ Analyses génétiques et phylogénétiques pour les SVT
 
 ## Installation
 
-<a name ="installgenoy"></a>
+<a name ="installgenopy"></a>
 
 
 ### Installation des dépendances.
