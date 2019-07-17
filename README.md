@@ -3,6 +3,37 @@
 
 Analyses génétiques et phylogénétiques pour les SVT
 
+
+## Sommaire:
+
+[Créer des séquences](#creatseq)
+
+[Créer des fichiers fasta](#creatfasta)
+
+[Convertir des fichiers .edi (anagene) en fichiers fasta](#convedi)
+
+[Rechercher et afficher des séquences](#openseq)
+
+[Transcrire](#transc)
+
+[Traduire](#transl)
+
+[Rétro-Transcrire](#rt)
+
+[Afficher les tables du code génétique](#tablecode)
+
+[Comparer des séquences: alignement par paires](#needlewater)
+
+[Comparer des séquences: alignement multiple (clustal)](#clustal)
+
+[Afficher et sauvegarder une matrice de distances](#matrix)
+
+[Tracer un arbre phylogénétique à partir d'une matrice de distances](#phylomatrix)
+
+[Tracer un arbre phylogénétique à partir d'une liste de séquences](#phyloseq)
+
+
+
 <a name ="installgenoy"></a>
 
 ## Installation
@@ -894,7 +925,7 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
 
 
 <p align="center">
-  <img src="Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
+  <img src="https://github.com/YannBouyeron/YannBouyeron/Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
 ">
 </p>
 
