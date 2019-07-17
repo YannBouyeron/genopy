@@ -6,6 +6,8 @@ Analyses génétiques et phylogénétiques pour les SVT
 
 ## Sommaire:
 
+[Installation](#installgenopy)
+
 [Créer des séquences](#creatseq)
 
 [Créer des fichiers fasta](#creatfasta)
@@ -925,7 +927,7 @@ La matrice peut aussi être sauvegardée sous forme d'image png qui serra enregi
 
 
 <p align="center">
-  <img src="https://github.com/YannBouyeron/YannBouyeron/Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
+  <img src="https://github.com/YannBouyeron/YannBouyeron.github.io/Images/62FFEC5E-3F75-4173-9CF2-222939C40CF8.png
 ">
 </p>
 
