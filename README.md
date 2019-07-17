@@ -16,7 +16,7 @@ Genopy requiert python >= 3.4 et des dépendances python qui ne sont pas présen
 
 Si vous avez plusieurs versions de python et que vous souhaitez installer Genopy pour la version de python 3.6 (par exemple):
 
-	Python3.6 -m pip install numpy biopython pandas matplotlib seaborn ipfshttpclient
+	python3.6 -m pip install numpy biopython pandas matplotlib seaborn ipfshttpclient
 
 #### Installation de Clustalw
 
