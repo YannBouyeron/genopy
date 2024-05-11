@@ -114,17 +114,6 @@ Sur Debian:
 
 ### Installation de genopy
 
-#### Avec pip:
-
-    sudo pip install genopy
-    
-Ou, pour une version donnée de python (exemple 3.6):
-
-    sudo python3.6 -m pip install genopy
-
-
-#### Depuis github:
-
 	git clone https://github.com/YannBouyeron/genopy
 	
 	cd genopy
